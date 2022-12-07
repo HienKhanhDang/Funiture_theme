@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/21ae0a5d46.js" crossorigin="anonymous"></script>
+    <!-- custom file css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header>
+        <!-- menu -->
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">Funiture New</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#featured">Featured</a>
+            <a href="#review">Review</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-search" id="search-btn"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <span>5.800.000₫</span>
+                    <h3>ARMCHAR READER </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit accusantium repellendus quod,
+                        asperiores eaque veritatis?</p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="image">
+                    <img src="/images/sp1.jpg" alt="" class="armchair">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>5.000.000₫</span>
+                    <h3>ARMCHAIR PHƯỢT CON </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit accusantium repellendus quod,
+                        asperiores eaque veritatis?</p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="image">
+                    <img src="/images/sp3.jpg" alt="" class="armchair">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>9.000.000₫</span>
+                    <h3>SET ARMCHAIR + FOOTSTOOL SHEEP </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit accusantium repellendus quod,
+                        asperiores eaque veritatis?</p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="image">
+                    <img src="/images/sp2.jpg" alt="" class="armchair">
+                </div>
+            </div>
+        </div>
+        <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+        <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+    </section>
+    <!-- home section ends -->
+    <!-- service section start -->
+    <section class="service">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>fast delivery</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-undo"></i>
+                <h3>10 days replacements</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24 / 7 support</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- service section end -->
+    <!-- product section start -->
+    <section class="products" id="products">
+        <h1 class="heading">latest <span>product</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./images/sp4.jpg" alt="">
+                <div class="content">
+                    <h3>ARMCHAIR OLIVE (Indonesia Fabric)</h3>
+                    <div class="price">6.000.000₫</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./images/sp5.jpg" alt="">
+                <div class="content">
+                    <h3>ARMCHAIR BÀNH CHỒI CÂY (Belgium Fabric)</h3>
+                    <div class="price">6.600.000₫</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./images/sp6.jpg" alt="">
+                <div class="content">
+                    <h3>SET ARMCHAIR + FOOTSTOOL OLIVE (Indonesia Fabric)</h3>
+                    <div class="price">8.500.000₫</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./images/sp7.jpg" alt="">
+                <div class="content">
+                    <h3>ARMCHAIR MILK (Belgium Fabric)</h3>
+                    <div class="price">6.800.000₫ <span>7.000.000₫</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./images/sp8.jpg" alt="">
+                <div class="content">
+                    <h3>ARMCHAIR MILK (Indonesia Fabric)</h3>
+                    <div class="price">5.800.000₫</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./images/sp9.jpg" alt="">
+                <div class="content">
+                    <h3>ARMCHAIR NGỌC TRAI (Belgium Fabric)</h3>
+                    <div class="price">6.600.000₫ <span>6.900.000₫</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./images/sp10.jpg" alt="">
+                <div class="content">
+                    <h3>ARMCHAIR BÔNG MÂY (Indonesia Fabric)</h3>
+                    <div class="price">6.200.000₫</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./images/sp11.jpg" alt="">
+                <div class="content">
+                    <h3>ARMCHAIR TIME TO RELAX (Belgium Fabric)</h3>
+                    <div class="price">6.700.000₫</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product section ends -->
+    <!-- featured section starts -->
+    <section class="featured" id="featured">
+        <h1 class="heading"><span>featured </span>products</h1>
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="./images/db1.0.jpg" class="featured-image-1" alt="">
+                    <img src="./images/db1.1.jpg" class="featured-image-1" alt="">
+                    <img src="./images/db1.2.jpg" class="featured-image-1" alt="">
+                    <img src="./images/db1.3.jpg" class="featured-image-1" alt="">
+                    <img src="./images/db1.jpg" class="featured-image-1" alt="">
+                </div>
+                <div class="big-image">
+                    <img src="./images/db1.jpg" class="big-image-1" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <h3>ARMCHAIR SHEEP (Korea Faux Leather)</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ea quos dolor illo. Quis,
+                    accusantium!</p>
+                <div class="price">6.500.000₫</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="./images/db2.0.jpg" class="featured-image-2" alt="">
+                    <img src="./images/db2.1.jpg" class="featured-image-2" alt="">
+                    <img src="./images/db2.2.jpg" class="featured-image-2" alt="">
+                    <img src="./images/db2.3.jpg" class="featured-image-2" alt="">
+                    <img src="./images/db2.jpg" class="featured-image-2" alt="">
+                </div>
+                <div class="big-image">
+                    <img src="./images/db2.jpg" class="big-image-2" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <h3>SET ARMCHAIR + FOOTSTOOL OLIVE (Indonesia Fabric)</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ea quos dolor illo. Quis,
+                    accusantium!</p>
+                <div class="price">6.500.000₫</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="./images/db3.0.jpg" class="featured-image-3" alt="">
+                    <img src="./images/db3.1.jpg" class="featured-image-3" alt="">
+                    <img src="./images/db3.2.jpg" class="featured-image-3" alt="">
+                    <img src="./images/db3.3.jpg" class="featured-image-3" alt="">
+                    <img src="./images/db3.jpg" class="featured-image-3" alt="">
+                </div>
+                <div class="big-image">
+                    <img src="./images/db3.jpg" class="big-image-3" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <h3>ROCKING CHAIR COCONUT (Indonesia Fabric)</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ea quos dolor illo. Quis,
+                    accusantium!</p>
+                <div class="price">5.900.000₫</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+    <!-- featured section ends -->
+    <!-- review section starts -->
+    <section class="review" id="review">
+        <h1 class="heading"> customer's <span>review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/pic1.png" alt="">
+                <h3>john deo</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima cumque commodi fugiat, voluptatibus
+                    iste sed.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic2.png" alt="">
+                <h3>john deo</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima cumque commodi fugiat, voluptatibus
+                    iste sed.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic3.png" alt="">
+                <h3>john deo</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima cumque commodi fugiat, voluptatibus
+                    iste sed.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- review section ends -->
+    <!-- newsletter section starts -->
+    <section class="newsletter">
+        <div class="content">
+            <h3>monthly newsletter</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores deserunt aut ipsa obcaecati debitis commodi, vero distinctio voluptatum facilis molestias?</p>
+            <form action="">
+                <input type="email" placeholder="enter your email" class="box">
+                <input type="submit" value="send" class="btn">
+            </form>
+        </div>
+
+    </section>
+
+     <!-- newsletter section ends -->
+    <!-- footer section starts-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>our stores</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">paris</a>
+            </div>
+            <div class="box">
+                <h3>quick link</h3>
+                <a href="#">home</a>
+                <a href="#">products</a>
+                <a href="#">featured</a>
+                <a href="#">review</a>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my favorite</a>
+                <a href="#">my orders</a>
+                <a href="#">newsletter</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+            <div class="credit">created by ... <span>CD21CT1</span> | all rights reserved!</div>
+        </div>
+    </section>
+     <!-- footer section ends -->
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
